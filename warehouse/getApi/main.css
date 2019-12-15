@@ -1,0 +1,84 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  img{
+     display: block;
+     margin: 0 auto;
+     margin-bottom: 15px;
+     max-width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 1rem;
+    background-color: #fff;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 15px;
+  }
+  
+  h1{
+    text-align: center;
+    background-color: crimson;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.5em;
+    color: #fff;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+  }
+
+  p{
+      margin: 0;
+      padding: 2.5em 2.5em;
+      text-align: justify;
+  }
+  
+  .card:hover h1{
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 1s;
+  }
+
+  @media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+
+  .card:nth-child(2n) h1{
+      background-color: #f1c40f;
+  }
+  .card:nth-child(4n) h1{
+      background-color: #2c3e50;
+  }
+  .card:nth-child(5n) h1{
+      background-color:#2ecc71;
+  }
+
+  .card:hover:nth-child(2n) h1{
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    
+  }
+  
+  .card:hover:nth-child(5n) h1{
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 1s;
+  }

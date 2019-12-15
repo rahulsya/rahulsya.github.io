@@ -1,0 +1,28 @@
+*{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+.bg-jumbotron{
+    background-color: #f1c40f !important;
+}
+
+.img-size{
+    height: 300px;
+}
+.card{
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.score-text{
+    margin-top: -5%;
+    font-weight: 900;
+    color: #f1c40f;
+}
+.title-text{
+    margin-top: -10%;
+    font-weight: 600;
+}
+.episode-text{
+    margin-top: -5%;
+}
