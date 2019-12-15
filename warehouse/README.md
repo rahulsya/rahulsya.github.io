@@ -1,7 +1,7 @@
 # rahulsya.github.io
 ## Hello friends Wellcome To My mini-project web :smile:
 
-1. Drag & Drop - Javascript :frog:
+1. Drag & Drop Like Trello - Javascript :frog:
      - [Drag And Drop](https://rahulsya.github.io/warehouse/draganddrop/)
      
 2. Stidio Ghilbi Api - Javascript :baby_chick:
