@@ -13,7 +13,7 @@ request.onload= function(){
         data.top.forEach(results => {
           
             const el=document.createElement('top-anime')
-            el.classList.add('col-12','col-md-3','col-sm-6','mt-5','text-center','center-block')
+            el.classList.add('col-12','col-md-3','col-sm-6','mt-5','text-center')
             el.results=results
             display.appendChild(el)
 

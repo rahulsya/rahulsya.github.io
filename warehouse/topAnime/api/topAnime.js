@@ -2,7 +2,7 @@ class topAnimeElements extends HTMLElement{
 
     set results(result){
         this.innerHTML=`
-            <div class="card rounded-0 border-0 text-white bg-dark text-center">
+            <div class="card rounded-0 border-0 text-white bg-dark">
                 <img src="${result.image_url}" alt="" class="card-img-top img-size rounded-0">
                 <div class="card-body">
                     <p class="score-text">${result.score}</p>
