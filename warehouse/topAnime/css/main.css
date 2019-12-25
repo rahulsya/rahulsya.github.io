@@ -9,20 +9,29 @@
 
 .img-size{
     height: 300px;
+    width: 225px !important;
+    margin: 0% auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .card{
     background-color:rgba(0, 0, 0, 0);
 }
 
 .score-text{
-    margin-top: -5%;
     font-weight: 900;
     color: #f1c40f;
 }
 .title-text{
-    margin-top: -10%;
     font-weight: 600;
 }
-.episode-text{
-    margin-top: -5%;
+
+@media only screen and (max-width:768px){
+    .img-size{
+        width: 250px !important;
+        
+    }
+    .card{
+        margin:0 auto;
+    }
 }
