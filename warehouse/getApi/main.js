@@ -5,6 +5,7 @@ async function getApi(){
     try {
         let response=await fetch('https://ghibliapi.herokuapp.com/films')
         let result=await response.json()
+        //console.log(result);
         return result
     } catch (error) {
         console.log('error');

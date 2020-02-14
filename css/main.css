@@ -1,0 +1,48 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    background-color: #EEEEEE;
+}
+
+.nav-item{
+    padding-right: 25px;
+}
+.text-bold{
+    font-weight: 700;
+}
+/* .navbar.navbar-expand-lg.navbar-dark.bg-dark.transparent {
+    background-color: rgba(0,0,0,0) !important;
+} */
+
+/* mobile */
+.jumbotron{
+       height: 250px;
+       background-color: #1E1E2C;
+       color: #fff;
+   }
+.content-project{
+    z-index: unset;
+    margin-top: 0 ;
+}
+
+@media only screen and (min-width:768px){
+    /* desktop */
+    .jumbotron{
+           height: 425px;
+           background-color: #1E1E2C;
+           color: #fff;
+       }
+    .content-project{
+        z-index: 1;
+        margin-top: -100px;
+    }
+    .img-size{
+        max-width: 100%;
+        height: auto;
+    }
+    .footer{
+        margin-top:10% ;
+    }
+}
+
+

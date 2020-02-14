@@ -5,9 +5,11 @@ const request=new XMLHttpRequest()
 
 request.open('get','https://api.jikan.moe/v3/top/anime',true)
 
+console.log('mulai');
+
 request.onload= function(){
     var data=JSON.parse(this.response)
-    //console.log(data);
+    console.log(data);
 
     if (request.status>=200 && request.status <=300) {
         data.top.forEach(results => {
@@ -27,3 +29,4 @@ request.onload= function(){
 }
 
 request.send()
+console.log('selesai');
