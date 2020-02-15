@@ -2,19 +2,19 @@
     "project":[
         {
             "name":"vueshop",
-            "image":"../image/vueshop.jpg",
+            "image":"https://rahulsya.github.io/page/image/vueshop.jpg",
             "tags":["#vue js","#laravel","#vuetify"],
             "link":"#"
         },
         {
             "name":"WebApi anime",
-            "image":"../image/apiweb.jpg",
+            "image":"https://rahulsya.github.io/page/image/apiweb.jpg",
             "tags":["#javascript","#anime","#webApi"],
             "link":"https://rahulsya.github.io/"
         },
         {
             "name":"Design WebTravel",
-            "image":"../image/webtravel.jpg",
+            "image":"https://rahulsya.github.io/page/image/webtravel.jpg",
             "tags":["#Bootstrap","#webDesign","#Html","#css"],
             "link":"#"
         }
