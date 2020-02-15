@@ -1,5 +1,5 @@
 
-const file="../data/project.json"
+const file="page/data/project.json"
 const domProject=document.querySelector(".project")
 class Project{
     async getProject(){
