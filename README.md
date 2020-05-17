@@ -9,6 +9,6 @@
      - [StudioGhilbi APi](https://rahulsya.github.io/warehouse/getApi/)
      
 3. AnimeList Api - Javascript :snake:
-     - [AnimeList Api](https://rahulsya.github.io/warehouse/topAnime/)
-4. Soon --- :penguin:
+     - [AnimeList Api](https://rahulsya.github.io/warehouse/animev2/)    
+5. Soon --- :penguin:
    - :snail:
