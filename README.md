@@ -12,7 +12,7 @@
      - [AnimeList Api](https://rahulsya.github.io/warehouse/animev2/)
      
 4. Football news - Javascript, Prograsive web App :snake:
-     - [Football news](https://rahulsya.github.io/warehouse/sportnews/) 
+     - [Premier League news](https://rahulsya.github.io/warehouse/sportnews/) 
      
 5. Soon --- :penguin:
    - :snail:
