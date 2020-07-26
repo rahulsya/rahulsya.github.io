@@ -8,7 +8,11 @@
 2. Stidio Ghilbi Api - Javascript :baby_chick:
      - [StudioGhilbi APi](https://rahulsya.github.io/warehouse/getApi/)
      
-3. AnimeList Api - Javascript :snake:
-     - [AnimeList Api](https://rahulsya.github.io/warehouse/animev2/)    
+3. AnimeList Api v2 - Javascript :snake:
+     - [AnimeList Api](https://rahulsya.github.io/warehouse/animev2/)
+     
+4. Football news - Javascript, Prograsive web App :snake:
+     - [Football news](https://rahulsya.github.io/warehouse/sportnews/) 
+     
 5. Soon --- :penguin:
    - :snail:
