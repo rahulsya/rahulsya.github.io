@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="src/icons/icon-72x72.png" />
+    <link rel="apple-touch-icon" href="src/icons/icon-96x96.png" />
+    <link rel="apple-touch-icon" href="src/icons/icon-128x128.png" />
+    <link rel="apple-touch-icon" href="src/icons/icon-144x144.png" />
+    <link rel="apple-touch-icon" href="src/icons/icon-152x152.png" />
+    <link rel="apple-touch-icon" href="src/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon" href="src/icons/icon-384x384.png" />
+    <link rel="apple-touch-icon" href="src/icons/icon-512x512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#311b92" />
+    <meta name="theme-color" content="#311b92" />
+    <title>SportNews</title>
+    <!-- <link rel="stylesheet" href="src/css/materialize.min.css" /> -->
+  </head>
+  <body>
+    <nav class="deep-purple darken-4">
+      <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo">SportNews</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">☰</a>
+
+        <ul class="topnav right hide-on-med-and-down">
+          <li><a class="waves-effect" href="#home">Home</a></li>
+          <li><a class="waves-effect" href="#standing">Standings</a></li>
+          <li><a class="waves-effect" href="#teams">Favorite Team</a></li>
+        </ul>
+      </div>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="waves-effect" href="#home">Home</a></li>
+        <li><a class="waves-effect" href="#standing">Standings</a></li>
+        <li><a class="waves-effect" href="#teams">Favorite Team</a></li>
+      </ul>
+    </nav>
+    <div id="body-content"></div>
+    <!-- <script src="/src/js/materialize.min.js"></script> -->
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
