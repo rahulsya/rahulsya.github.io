@@ -3,7 +3,7 @@
   "name": "SportNews",
   "short_name": "SportNews",
   "description": "update about Premier league",
-  "start_url": "/index.html",
+  "start_url": "https://rahulsya.github.io/warehouse/sportnews/index.html",
   "display": "standalone",
   "background_color": "#311b92",
   "theme_color": "#311b92",
