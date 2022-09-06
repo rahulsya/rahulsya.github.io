@@ -1,7 +1,7 @@
 [{
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
-      "namespace": "NftMarket",
+      "namespace": "android_app",
       "package_name": "com.nftmarket",
       "sha256_cert_fingerprints":
       ["33:FB:34:DF:6B:8A:E3:AE:CA:D7:8F:A9:38:B8:93:C4:BC:6A:E1:A4:11:A4:00:FE:3B:F2:77:9F:76:19:CF:A3"]
